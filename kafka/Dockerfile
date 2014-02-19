@@ -40,6 +40,7 @@ RUN chmod +x /usr/local/bin/start-server.sh
 # ENV VARIABLE
 ENV JAVA_HOME /usr/lib/jvm/java-7-oracle
 ENV ZOO_LOG_DIR /var/log/zookeeper
+ENV JMX_PORT 7777
 
 EXPOSE 9092 2181 2888 3888
 
